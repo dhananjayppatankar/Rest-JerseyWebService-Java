@@ -9,6 +9,7 @@ public class UserInfo {
 	private String lastname;
 	private int age;
 	private String role;
+	private int id;
 	
 	
 	
@@ -106,6 +107,22 @@ public class UserInfo {
 
 	public void setRole(String role) {
 		this.role = role;
+	}
+
+
+
+
+
+	public int getId() {
+		return id;
+	}
+
+
+
+
+
+	public void setId(int id) {
+		this.id = id;
 	}
 	
 	
